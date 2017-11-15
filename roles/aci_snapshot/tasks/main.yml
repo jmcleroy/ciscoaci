@@ -3,7 +3,7 @@
   aci_config_snapshot:
     hostname: 172.16.1.42
     username: admin
-    password: admin
+    password: admin123
     state: present
     export_policy: config_backup
     max_count: 10
