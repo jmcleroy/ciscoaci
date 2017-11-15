@@ -10,3 +10,4 @@
     policy_control_preference: enforced
     policy_control_direction: ingress
     state: present
+    validate_certs: false
