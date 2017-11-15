@@ -1,0 +1,7 @@
+---
+- name: Create a Snapshot
+  aci_config_snapshot:
+    state: present
+    export_policy: config_backup
+    max_count: 10
+    description: Backups taken before new configs are applied.
