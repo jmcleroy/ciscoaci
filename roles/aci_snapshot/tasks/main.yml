@@ -8,3 +8,4 @@
     export_policy: config_backup
     max_count: 10
     description: Backups taken before new configs are applied.
+    validate_certs: false
