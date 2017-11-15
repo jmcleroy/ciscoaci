@@ -1,6 +1,9 @@
 ---
 - name: Create a Snapshot
   aci_config_snapshot:
+    hostname: 172.16.1.42
+    username: admin
+    password: admin
     state: present
     export_policy: config_backup
     max_count: 10
