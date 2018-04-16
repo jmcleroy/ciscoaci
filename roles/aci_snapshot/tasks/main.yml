@@ -1,7 +1,7 @@
 ---
 - name: Create a Snapshot
   aci_config_snapshot:
-    hostname: 172.16.1.42
+    hostname: {{ inventory_hostname }}
     state: present
     export_policy: config_backup
     max_count: 10

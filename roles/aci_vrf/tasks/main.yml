@@ -1,7 +1,7 @@
 ---
 - name: Add a new VRF to a tenant
   aci_vrf:
-    hostname: 172.16.1.42
+    hostname: {{ inventory_hostname }}
     vrf: vrf_lab
     tenant: infra
     descr: Lab VRF
