@@ -2,8 +2,6 @@
 - name: Add a new VRF to a tenant
   aci_vrf:
     hostname: 172.16.1.42
-    username: admin
-    password: admin123
     vrf: vrf_lab
     tenant: infra
     descr: Lab VRF
